@@ -1,0 +1,30 @@
+nav{
+    background-color: rgb(116,48,0);
+    padding-left: 10px;
+}
+ul{ margin-left: 250px;}
+
+
+#enta{
+    background-color: rgb(116,48,0);
+    color: white;
+}
+#cuta{
+    background-color: rgba(213, 154, 36, 0.295);
+   
+}
+#formulario{
+    background-color: white;
+    padding-top: 50px;
+    color: black;
+}
+#copi{
+    color: black;
+}
+
+
+.btnAgegar { 
+   
+    position: relative;
+    padding-bottom:  3px;
+  }

@@ -1,0 +1,11 @@
+SELECT f.id AS numFac, f.fecha, f.subtotal,f.iva, f.apagar AS total, 
+
+df.cantidad AS canProd, df.precioVenta AS preProd, df.importe AS impProd, 
+
+c.nombres AS nomCli ,c.apellidos AS apeCli, c.cedula AS cedula,
+	
+p.nombre AS nomProd , p.detalle AS detProd
+
+FROM  productos p, clientes c,  factura f, detallefactura df 
+
+WHERE df.idFactura = f.id and f.idClientes = c.id and df.idProductos = p.id and c.id = 2;
